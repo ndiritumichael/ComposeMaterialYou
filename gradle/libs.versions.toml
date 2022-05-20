@@ -1,0 +1,27 @@
+[plugins]
+
+
+[libraries]
+accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist" }
+accompanist-systemui-controller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist"}
+
+
+compose-animation-animation = { module = "androidx.compose.animation:animation", version.ref = "compose" }
+compose-foundation-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "compose" }
+compose-material-iconsext = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose" }
+compose-material-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+compose-ui-test = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-uitextfonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "compose" }
+compose-ui-util = { module = "androidx.compose.ui:ui-util", version.ref = "compose" }
+compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "compose" }
+
+compose-material-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+
+
+[versions]
+compose = '1.2.0-beta02'
+accompanist = "0.24.1-alpha"
+material3 = "1.0.0-alpha12"

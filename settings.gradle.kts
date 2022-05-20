@@ -1,3 +1,4 @@
+enableFeaturePreview("VERSION_CATALOGS")
 pluginManagement {
   repositories {
     gradlePluginPortal()
@@ -6,11 +7,12 @@ pluginManagement {
   }
 }
 dependencyResolutionManagement {
+
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
     google()
     mavenCentral()
   }
 }
-rootProject.name='ComposeMaterialYou'
-include ':app'
+rootProject.name="ComposeMaterialYou"
+include (":app")
