@@ -33,6 +33,7 @@
  */
 package com.app.composematerialyou.presentation.composables
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
@@ -53,7 +54,8 @@ fun EmptyStateScreen() {
   Column(
     modifier = Modifier
       .fillMaxHeight()
-      .fillMaxWidth(),
+      .fillMaxWidth()
+      .background(MaterialTheme.colorScheme.onPrimary),
     horizontalAlignment = Alignment.CenterHorizontally,
     verticalArrangement = Arrangement.Center
   ) {
@@ -75,7 +77,7 @@ fun EmptyStateScreen() {
       text = "No events created",
       modifier = Modifier
         .fillMaxWidth(),
-      color = Color.Black,
+
       textAlign = TextAlign.Center,
       fontSize = 24.sp,
       fontWeight = FontWeight.Bold

@@ -226,8 +226,8 @@ fun SwipableCalendarItem(
     },
     dismissContent = {CalendarListItem(userEvent = userEvent){editEvent()} },
     directions = setOf(DismissDirection.EndToStart,DismissDirection.StartToEnd),
-    dismissThresholds = { direction ->
-     androidx.compose.material.FractionalThreshold(0.4f)
+    dismissThresholds = {
+      androidx.compose.material.FractionalThreshold(0.4f)
     },
 
     )
